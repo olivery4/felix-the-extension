@@ -5,7 +5,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "https://olivery4.github.io",
-    "default_icon": "https://olivery4.github.io/files/felix-favicon.png"
+    "default_popup": "test.html",
+    "default_icon": "felix-favicon.png"
   }
 }
