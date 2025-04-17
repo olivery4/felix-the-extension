@@ -5,7 +5,11 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "test.html",
-    "default_icon": "felix-favicon.png"
+    "default_popup": "popup.html",
+    "default_icon": "https://olivery4.github.io/files/felix-favicon.png"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
   }
 }
